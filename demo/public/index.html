@@ -1,0 +1,36 @@
+<html>
+    <head>
+<style>
+    form{
+        border-style:double ;
+        width:30%;
+        height:20%;
+        text-align:center;
+        background-color:chartreuse;
+        
+    }
+    p{
+        color:red;
+    }
+    
+    </style>
+    </head>
+    <body>
+    <form action="/login" method="post">  
+    <h3>LOGIN FORM</h3>
+    <table>
+        <tr>
+        <td>Username:</td>
+        <td><input type="text" name="username"></td>
+        <td><p id="errname"></p></td>
+        </tr>
+        <tr>
+        <td>Password:</td>
+        <td><input type="text" name="password"></td>
+        <td><p id="errpass"></p></td>
+        </tr>
+    </table>
+    <button type="submit"  name="validate">login</button><br>
+    </form>
+    </body>
+    </html>
